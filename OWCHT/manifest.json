@@ -1,8 +1,8 @@
 {
-  "filename": "OWKT.dll",
-  "author": "milesand",
-  "name": "Outer Wilds Korean Translation",
-  "uniqueName": "milesand.OWKT",
-  "version": "1.0.0",
-  "owmlVersion": "2.3.0"
+  "filename": "OWCHT.dll",
+  "author": "PuFF",
+  "name": "Outer Wilds Traditional Chinese Translation",
+  "uniqueName": "PuFF.OWCHT",
+  "version": "1.0.1",
+  "owmlVersion": "2.3.3"
 }
