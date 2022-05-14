@@ -1,4 +1,4 @@
-# Outer Wilds Tradition Chinese 繁中 translation
+# Outer Wilds 繁中 Traditional Chinese translation mod
 
 Change simplified chinese to traditional chinese.
 
