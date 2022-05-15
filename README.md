@@ -3,5 +3,4 @@
 
 Change simplified chinese to traditional chinese.
 
-Original source code from milesand outerwilds korean translation mod.
-https://github.com/milesand/outer-wilds-korean-translation/tree/main/OWKT
+Original source code from milesand's outerwilds korean translation mod.
