@@ -1,4 +1,5 @@
 ﻿using OWML.ModHelper;
+using OWML.Common;
 using System;
 using System.Reflection;
 using System.Xml;
@@ -49,34 +50,35 @@ namespace OWCHT
                 return notoSansTcMedDyn;
             }
         }
+        public static bool isEnglishName { get; private set; }
 
-        //private Font d2Coding;
-        //public Font D2Coding
-        //{
-        //    get
-        //    {
-        //        if (d2Coding == null)
-        //        {
-        //            d2Coding = Bundle.LoadAsset<Font>("Assets/Fonts/D2Coding.ttf");
-        //        }
-        //        return d2Coding;
-        //    }
-        //}
+    //private Font d2Coding;
+    //public Font D2Coding
+    //{
+    //    get
+    //    {
+    //        if (d2Coding == null)
+    //        {
+    //            d2Coding = Bundle.LoadAsset<Font>("Assets/Fonts/D2Coding.ttf");
+    //        }
+    //        return d2Coding;
+    //    }
+    //}
 
-        //private Font d2CodingDyn;
-        //public Font D2CodingDyn
-        //{
-        //    get
-        //    {
-        //        if (d2CodingDyn == null)
-        //        {
-        //            d2CodingDyn = Bundle.LoadAsset<Font>("Assets/Fonts/D2Coding_Dynamic.ttf");
-        //        }
-        //        return d2CodingDyn;
-        //    }
-        //}
+    //private Font d2CodingDyn;
+    //public Font D2CodingDyn
+    //{
+    //    get
+    //    {
+    //        if (d2CodingDyn == null)
+    //        {
+    //            d2CodingDyn = Bundle.LoadAsset<Font>("Assets/Fonts/D2Coding_Dynamic.ttf");
+    //        }
+    //        return d2CodingDyn;
+    //    }
+    //}
 
-        private void Start()
+    private void Start()
         {
             self = this;
             ModHelper.HarmonyHelper.AddPrefix<TextTranslation>("SetLanguage", typeof(OWCHT), nameof(OWCHT.SetLanguage));
@@ -93,6 +95,11 @@ namespace OWCHT
             //ModHelper.HarmonyHelper.AddPrefix(setPromptText, typeof(OWCHT), nameof(OWCHT.SetPromptTextCharacter));
         }
 
+        public override void Configure(IModConfig config)
+        {
+            isEnglishName = (config.GetSettingsValue<bool>("Show Characters Names in English"));
+        }
+
         private static bool SetLanguage(
             TextTranslation.Language lang,
             TextTranslation __instance,
@@ -106,7 +113,12 @@ namespace OWCHT
 
             ___m_language = lang;
             ___m_table = null;
-            TextAsset textAsset = self.Bundle.LoadAsset<TextAsset>("Assets/Translation.txt");
+            TextAsset textAsset;
+            if (isEnglishName){
+                textAsset = self.Bundle.LoadAsset<TextAsset>("Assets/TranslationEngName.txt");
+            }else{
+                textAsset = self.Bundle.LoadAsset<TextAsset>("Assets/Translation.txt");
+            }
             if (null == textAsset)
             {
                 Debug.LogError("Unable to load text translation file for language " + TextTranslation.s_langFolder[(int)___m_language]);
@@ -300,6 +312,7 @@ namespace OWCHT
         {
             ____deathText.font = TextTranslation.GetFont(false);
         }
+
 
         private static void FormatNotif(
             ref NotificationData ____lowFuelNotif,
