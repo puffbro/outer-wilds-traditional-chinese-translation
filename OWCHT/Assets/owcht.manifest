@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2060280189
+CRC: 1050459595
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 09d7dd25391e8153bea294c5223a1a9f
+    Hash: cfe112675f9f8e0d1351863d01975e14
   TypeTreeHash:
     serializedVersion: 2
     Hash: 6e5c61fdb2d50ac2b3b6a75eeb29a3d7
@@ -20,7 +20,8 @@ ClassTypes:
 - Class: 128
   Script: {instanceID: 0}
 Assets:
-- Assets/fonts/NotoSansTC-Medium.otf
+- Assets/fonts/NotoSansTC-Bold-Dyn.otf
+- Assets/translationEngName.txt
 - Assets/fonts/NotoSansTC-Bold.otf
 - Assets/translation.txt
 Dependencies: []
