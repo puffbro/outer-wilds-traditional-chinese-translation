@@ -115,9 +115,10 @@ namespace OWCHT
             ___m_table = null;
             TextAsset textAsset;
             if (isEnglishName){
-                textAsset = self.Bundle.LoadAsset<TextAsset>("Assets/TranslationEngName.txt");
+                textAsset = self.Bundle.LoadAsset<TextAsset>("Assets/TranslationCantonese.txt");
             }else{
                 textAsset = self.Bundle.LoadAsset<TextAsset>("Assets/Translation.txt");
+            //dsadsadasdas
             }
             if (null == textAsset)
             {
