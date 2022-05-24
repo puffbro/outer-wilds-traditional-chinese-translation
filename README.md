@@ -6,4 +6,7 @@ Options to show characters names in English, you can change the setting in Mods 
 
 Original source code from milesand's outerwilds korean translation mod.
 
-byebyebye
+
+hihihy
+
+byebyebie
