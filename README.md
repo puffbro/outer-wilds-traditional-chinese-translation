@@ -5,8 +5,3 @@ Change simplified chinese to traditional chinese.
 Options to show characters names in English, you can change the setting in Mods menu.
 
 Original source code from milesand's outerwilds korean translation mod.
-
-
-hihihy
-
-byebyebie
