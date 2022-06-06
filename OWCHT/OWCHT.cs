@@ -89,7 +89,7 @@ namespace OWCHT
             ModHelper.HarmonyHelper.AddPrefix<NomaiTranslatorProp>("InitializeFont", typeof(OWCHT), nameof(OWCHT.InitTranslatorFont));
             ModHelper.HarmonyHelper.AddPrefix<UIStyleManager>("GetShipLogFont", typeof(OWCHT), nameof(OWCHT.GetShipLogFont));
             ModHelper.HarmonyHelper.AddPostfix<GameOverController>("SetupGameOverScreen", typeof(OWCHT), nameof(OWCHT.SetGameOverScreenFont));
-            ModHelper.HarmonyHelper.AddPostfix<HUDCanvas>("Start", typeof(OWCHT), nameof(OWCHT.FormatNotif));
+            //ModHelper.HarmonyHelper.AddPostfix<HUDCanvas>("Start", typeof(OWCHT), nameof(OWCHT.FormatNotif));
             //ModHelper.HarmonyHelper.AddPrefix<ItemTool>("UpdateState", typeof(OWCHT), nameof(OWCHT.ItemToolUpdateState));
             MethodInfo setPromptText = typeof(SingleInteractionVolume).GetMethod("SetPromptText", new Type[] { typeof(UITextType), typeof(string) });
             //ModHelper.HarmonyHelper.AddPrefix(setPromptText, typeof(OWCHT), nameof(OWCHT.SetPromptTextCharacter));
