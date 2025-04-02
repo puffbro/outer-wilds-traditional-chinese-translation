@@ -95,10 +95,10 @@ namespace OWCHT
             //ModHelper.HarmonyHelper.AddPrefix(setPromptText, typeof(OWCHT), nameof(OWCHT.SetPromptTextCharacter));
         }
 
-        public override void Configure(IModConfig config)
-        {
-            isEnglishName = (config.GetSettingsValue<bool>("Show Characters Names in English"));
-        }
+        //public override void Configure(IModConfig config)
+        //{
+        //    isEnglishName = (config.GetSettingsValue<bool>("Show Characters Names in English"));
+        //}
 
         private static bool SetLanguage(
             TextTranslation.Language lang,
@@ -114,11 +114,12 @@ namespace OWCHT
             ___m_language = lang;
             ___m_table = null;
             TextAsset textAsset;
-            if (isEnglishName){
-                textAsset = self.Bundle.LoadAsset<TextAsset>("Assets/TranslationEngName.txt");
-            }else{
-                textAsset = self.Bundle.LoadAsset<TextAsset>("Assets/Translation.txt");
-            }
+            //if (isEnglishName){
+            //    textAsset = self.Bundle.LoadAsset<TextAsset>("Assets/TranslationEngName.txt");
+            //}else{
+            //    textAsset = self.Bundle.LoadAsset<TextAsset>("Assets/Translation.txt");
+            //}
+            textAsset = self.Bundle.LoadAsset<TextAsset>("Assets/Translation.txt");
             if (null == textAsset)
             {
                 Debug.LogError("Unable to load text translation file for language " + TextTranslation.s_langFolder[(int)___m_language]);

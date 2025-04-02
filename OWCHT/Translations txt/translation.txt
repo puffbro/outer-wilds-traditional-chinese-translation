@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TranslationTable_XML xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <entry>
     <key>
@@ -1482,8 +1483,8 @@
     <value>假如那件事真的發生了，那時間循環又是&lt;i&gt;怎麽&lt;/i&gt;回事？</value>
   </entry>
   <entry>
-    <key>sun station 2That’s true. &lt;pause&gt; I’m not sure how to factor that in.</key>
-    <value>說得對。&lt;pause&gt;雖然我也不知道這個該怎麽算。</value>
+    <key>sun station 2That’s true. &lt;Pause&gt; I’m not sure how to factor that in.</key>
+    <value>說得對。&lt;Pause&gt;雖然我也不知道這個該怎麽算。</value>
   </entry>
   <entry>
     <key>sun station 3Still, it’s kind of nice to get to say it out loud. Even if it’s just to ourself.</key>
@@ -1506,8 +1507,8 @@
     <value>可是，既然這是上一個循環發生的事情……</value>
   </entry>
   <entry>
-    <key>sun station 5aHaha, yeah, me either. &lt;pause&gt; ...Obviously.</key>
-    <value>哈哈，對啊，我也一點都不關心。&lt;pause&gt;……這不是顯而易見的事嗎。</value>
+    <key>sun station 5aHaha, yeah, me either. &lt;Pause&gt; ...Obviously.</key>
+    <value>哈哈，對啊，我也一點都不關心。&lt;Pause&gt;……這不是顯而易見的事嗎。</value>
   </entry>
   <entry>
     <key>sun station 5bThe worst part is we’re the same person, and you know I’m going to agree with you. (Sigh...)</key>
@@ -2267,7 +2268,7 @@
   </entry>
   <entry>
     <key>WhereToExplore_3TI was on the beach on Statue Island when the whole glowy business happened, by the way. It’s a nice beach for that kind of thing. I give it a solid 7 out of 10 on the Gabbro Relaxation Scale.</key>
-    <value>順便一說，那些閃閃發光的玩意兒出現時，我正躺在雕像島的沙灘上。\\n那座沙灘非常適合躺著放松。按照加布羅的舒適計量表，\\n10分里我給它打7分。</value>
+    <value>順便一說，那些閃閃發光的玩意兒出現時，我正躺在雕像島的沙灘上。\\n那座沙灘非常適合躺著放松。按照加布羅的舒適計量表，\\n\\分里我給它打7分。</value>
   </entry>
   <entry>
     <key>WhereToExplore_3TIf you feel like checking out Statue Island, it’s the one with two islands connected by a natural rock arch. Well... mostly connected, anyway. You’ll see.</key>
@@ -3511,7 +3512,7 @@
   </entry>
   <entry>
     <key>SignDespite my checking on them at least a thousand times over, the images are STILL not ready to print over in the radio tower. Well, it’s like they say — a watched satellite never transmits data! &lt;size=20&gt;(Haha, that’s a little joke for you, journal. No one says that.)&lt;/size&gt;</key>
-    <value>盡管我已經查看了至少上千次，無線電塔還是沒有打印出圖像。嗯，\\n這就是所謂的——觀察中的衛星從不傳輸數據！\\n&lt;size=20&gt;（哈哈，我這是給你開了個小玩笑呢，我的日志。）&lt;/size&gt;</value>
+    <value>盡管我已經查看了至少上千次，無線電塔還是沒有打印出圖像。嗯，\\n這就是所謂的——觀察中的衛星從不傳輸數據！\\n&lt;SmallText&gt;（哈哈，我這是給你開了個小玩笑呢，我的日志。）&lt;/SmallText&gt;</value>
   </entry>
   <entry>
     <key>SignSomeday, I’ll have to study the mechanics of how time manages to slow to a syrupy crawl whenever I’m anticipating something. In the meantime, I’ve turned to Gabbro, our resident expert in leisurely whiling away the hours, who recommends the following:</key>
@@ -3991,7 +3992,7 @@
   </entry>
   <entry>
     <key>
-			Melorae: If you’ve come here to look for Coleus, this is where we were when he vanished. He’s been missing for two days now!
+			MELORAE: If you’ve come here to look for Coleus, this is where we were when he vanished. He’s been missing for two days now!
 		</key>
     <value>
 			梅洛瑞：如果你是來找科利耶斯的，這里就是當時他消失的地方。\\n他已經失蹤兩天了！
@@ -3999,7 +4000,7 @@
   </entry>
   <entry>
     <key>
-			Annona: Your strange, wandering rock friend is here, though Coleus isn’t.
+			ANNONA: Your strange, wandering rock friend is here, though Coleus isn’t.
 		</key>
     <value>
 			安諾納：你那塊奇怪的流浪巖石朋友還在這里，但是科利耶斯卻不見了。
@@ -4007,7 +4008,7 @@
   </entry>
   <entry>
     <key>
-			Melorae: Coleus and I observed this unusual-looking rock shard (and several smaller rocks) in at least two other caverns. I’m unsure if this is relevant.
+			MELORAE: Coleus and I observed this unusual-looking rock shard (and several smaller rocks) in at least two other caverns. I’m unsure if this is relevant.
 		</key>
     <value>
 			梅洛瑞：科利耶斯和我在至少另外兩個洞窟里，都觀察到了這種模樣\\n不同尋常的巖石碎片（還有一些較小的巖石）。我不知道這一切是否\\n有所關聯。
@@ -4023,7 +4024,7 @@
   </entry>
   <entry>
     <key>
-			Melorae: We were examining the different rocks. I recall Coleus standing on the largest one (the wandering rock). I was taking notes, and then my lantern died.
+			MELORAE: We were examining the different rocks. I recall Coleus standing on the largest one (the wandering rock). I was taking notes, and then my lantern died.
 		</key>
     <value>
 			梅洛瑞：我們正在對不同的巖石進行檢查。我記得科利耶斯當時站在最大\\n的一塊巖石上面（流浪巖石）。我正在記筆記，然後我的燈就熄了。
@@ -4031,7 +4032,7 @@
   </entry>
   <entry>
     <key>
-			Melorae: When I lit it again, Coleus and the rock were both gone.
+			MELORAE: When I lit it again, Coleus and the rock were both gone.
 		</key>
     <value>
 			梅洛瑞：等我再次把燈點亮的時候，科利耶斯和那塊巖石就都不見了。
@@ -5557,9 +5558,7 @@
 		</value>
   </entry>
   <entry>
-    <key>
-			Melorae: Coleus is missing! He vanished from the &lt;color=orange&gt;Lakebed Cave&lt;/color&gt; (the one at the bottom of the dry lakebed at the north pole) several days ago, and we’re unable to find any trace of him. I don’t know how much air he had when he disappeared. I beg any friend reading this, help us recover Coleus!
-		</key>
+    <key>MELORAE: Coleus is missing! He vanished from the &lt;color=orange&gt;Lakebed Cave&lt;/color&gt; (the one at the bottom of the dry lakebed at the north pole) several days ago, and we’re unable to find any trace of him. I don’t know how much air he had when he disappeared. I beg any friend reading this, help us recover Coleus!</key>
     <value>
 			梅洛瑞：科利耶斯不見了！幾天前，他從&lt;color=orange&gt;湖床洞穴&lt;/color&gt;（北極幹湖床底部\\n的那個洞穴）里消失了，我們完全找不到他的蹤跡。我不知道他消失的\\n時候還有多少空氣。我懇請聽到這段消息的朋友們，\\n幫我們找找科利耶斯！
 		</value>
@@ -6780,7 +6779,7 @@
   </entry>
   <entry>
     <key>Riebeck_AttlerockRecordingYep. Just gonna get back in the ol’ ship and take off. Totally safe... Mostly safe. &lt;size=20&gt;Oh, stars above&lt;/size&gt;...</key>
-    <value>沒錯。該回到那艘宇宙飛船上去，然後駕駛它起飛了。\\n絕對安全……基本上安全。&lt;size=20&gt;哦，群星在上啊&lt;/size&gt;……</value>
+    <value>沒錯。該回到那艘宇宙飛船上去，然後駕駛它起飛了。\\n絕對安全……基本上安全。&lt;SmallText&gt;哦，群星在上啊&lt;/SmallText&gt;……</value>
   </entry>
   <entry>
     <key>RiebecksJournalThe journey here from the south pole has been, um... I’m going to go with “harrowing”, because of the, um, all of the meteors. But hey, at least I made it here unconcussed and not on fire!</key>
@@ -6952,7 +6951,7 @@
   </entry>
   <entry>
     <key>Spinel1You’re leaving the crater? Guess we’ll all be a little busier without you around to lend a hand.</key>
-    <value>你要離開環形山？看來少了你的幫忙，我們就沒法像現在這麽清閑了。</value>
+    <value>你要離開環形山？看來少了你的幫忙，我們就沒法像現在這麽清閒了。</value>
   </entry>
   <entry>
     <key>Spinel1That big water planet, Giant’s Deep - that’s where I’d go.</key>
@@ -7080,7 +7079,7 @@
   </entry>
   <entry>
     <key>Spinel13That’s nice. I’m planning to do a lot of that later.</key>
-    <value>那就好。回頭我也打算沒事閑上一陣子。</value>
+    <value>那就好。回頭我也打算沒事閒上一陣子。</value>
   </entry>
   <entry>
     <key>Spinel14You can go away now, assuming you’re done scaring off all the fish.</key>
@@ -7608,8 +7607,7 @@
   </entry>
   <entry>
     <key>SignOuter Wilds Ventures, Timber Hearth’s first and only space program, was founded to explore the farthest reaches of our solar system.</key>
-    <value>Outer Wilds 探險隊是木爐星首個也是唯一的一個太空計劃。
-創建它的目的，\\n是為了能夠前往我們太陽系的最遠端進行探索。</value>
+    <value>Outer Wilds 探險隊是木爐星首個也是唯一的一個太空計劃。創建它的目的，\\n是為了能夠前往我們太陽系的最遠端進行探索。</value>
   </entry>
   <entry>
     <key>SignFeldspar was the first Hearthian to be intentionally launched into space. They completed the first orbit around Timber Hearth and later made the first of what would be many landings on our moon, the Attlerock.</key>
@@ -7625,39 +7623,39 @@
   </entry>
   <entry>
     <key>ShyKid1&lt;size=20&gt;...&lt;/size&gt;</key>
-    <value>&lt;size=20&gt;……&lt;/size&gt;</value>
+    <value>&lt;SmallText&gt;……&lt;/SmallText&gt;</value>
   </entry>
   <entry>
     <key>ShyKid2&lt;size=20&gt;...&lt;/size&gt;</key>
-    <value>&lt;size=20&gt;……&lt;/size&gt;</value>
+    <value>&lt;SmallText&gt;……&lt;/SmallText&gt;</value>
   </entry>
   <entry>
     <key>ShyKid2&lt;size=20&gt;Good luck in space.&lt;/size&gt;</key>
-    <value>&lt;size=20&gt;祝你在太空中好運&lt;/size&gt;。</value>
+    <value>&lt;SmallText&gt;祝你在太空中好運&lt;/SmallText&gt;。</value>
   </entry>
   <entry>
     <key>ShyKid3&lt;size=20&gt;...&lt;/size&gt;</key>
-    <value>&lt;size=20&gt;……&lt;/size&gt;</value>
+    <value>&lt;SmallText&gt;……&lt;/SmallText&gt;</value>
   </entry>
   <entry>
     <key>FoundYou&lt;size=20&gt;...&lt;/size&gt;</key>
-    <value>&lt;size=20&gt;……&lt;/size&gt;</value>
+    <value>&lt;SmallText&gt;……&lt;/SmallText&gt;</value>
   </entry>
   <entry>
     <key>FoundYou&lt;size=20&gt;You found me...&lt;/size&gt;</key>
-    <value>&lt;size=20&gt;你找到我了……&lt;/size&gt;</value>
+    <value>&lt;SmallText&gt;你找到我了……&lt;/SmallText&gt;</value>
   </entry>
   <entry>
     <key>LastKidFound&lt;size=20&gt;...I won? I’m happy...&lt;/size&gt;</key>
-    <value>&lt;size=20&gt;……我贏了嗎？我真開心……&lt;/size&gt;</value>
+    <value>&lt;SmallText&gt;……我贏了嗎？我真開心……&lt;/SmallText&gt;</value>
   </entry>
   <entry>
     <key>LastKidFound&lt;size=20&gt;Thanks... for playing with us.&lt;/size&gt;</key>
-    <value>&lt;size=20&gt;謝謝你……和我們一起玩。&lt;/size&gt;</value>
+    <value>&lt;SmallText&gt;謝謝你……和我們一起玩。&lt;/SmallText&gt;</value>
   </entry>
   <entry>
     <key>AlreadyFoundYou&lt;size=20&gt;...&lt;/size&gt;</key>
-    <value>&lt;size=20&gt;……&lt;/size&gt;</value>
+    <value>&lt;SmallText&gt;……&lt;/SmallText&gt;</value>
   </entry>
   <entry>
     <key>SignThis crystal was taken from a Nomai ruin on Brittle Hollow.</key>
@@ -7850,7 +7848,7 @@
   </entry>
   <entry>
     <key>RiebeckIntro...But that’s enough about me and my problems. You didn’t come all this way to listen to me blather, did you! Heh, that’d be... yeah.</key>
-    <value>……我和我的麻煩就說到這里吧。你太老遠跑過來，可不是聽我閑扯，\\n對不對！哼，當然不是。</value>
+    <value>……我和我的麻煩就說到這里吧。你太老遠跑過來，可不是聽我閒扯，\\n對不對！哼，當然不是。</value>
   </entry>
   <entry>
     <key>Riebeck1Hi! ...What’s up?</key>
@@ -7894,11 +7892,11 @@
   </entry>
   <entry>
     <key>RiebeckArcheologistIf you have any questions about the Brittle Hollow Nomai, I’m your Hearthian! Or, um... I have some knowledge of them, I mean. So. &lt;size=20&gt;Maybe I can help?&lt;/size&gt;</key>
-    <value>如果你對碎空星的挪麥人有任何問題，可以盡管來問我！或者，\\n嗯……我是說，我可以解答其中的一部分。那麽。&lt;size=20&gt;需要我效勞嗎？&lt;/size&gt;</value>
+    <value>如果你對碎空星的挪麥人有任何問題，可以盡管來問我！或者，\\n嗯……我是說，我可以解答其中的一部分。那麽。&lt;SmallText&gt;需要我效勞嗎？&lt;/SmallText&gt;</value>
   </entry>
   <entry>
     <key>RiebeckExploreOh wow, where &lt;i&gt;shouldn’t&lt;/i&gt; you explore here?&lt;Pause&gt; Um, not the &lt;size=20&gt;black hole&lt;/size&gt;, actually. That’s... very no.</key>
-    <value>哦，哇，這里有哪兒是&lt;i&gt;不值得&lt;/i&gt;探索的啊？&lt;Pause&gt;呃，\\n事實上，&lt;size=20&gt;黑洞&lt;/size&gt;最好不要去。特別不推薦你去。</value>
+    <value>哦，哇，這里有哪兒是&lt;i&gt;不值得&lt;/i&gt;探索的啊？&lt;Pause&gt;呃，\\n事實上，&lt;SmallText&gt;黑洞&lt;/SmallText&gt;最好不要去。特別不推薦你去。</value>
   </entry>
   <entry>
     <key>RiebeckExploreWhich is unfortunate, because uh, the most exciting stuff is all below the crust. Including the &lt;color=orange&gt;Hanging City&lt;/color&gt; — that’s just to the north. You can kinda see it from here.</key>
@@ -7910,7 +7908,7 @@
   </entry>
   <entry>
     <key>RiebeckExploreGood luck with exploring. Um, if you learn anything about the Nomai, I’d love to hear it, &lt;size=20&gt;if it’s not too much trouble?&lt;/size&gt;</key>
-    <value>祝你探索的時候好運。嗯，如果你了解到了什麽有關挪麥人的情報，\\n那麽&lt;size=20&gt;不介意的話&lt;/size&gt;，是不是也能說給我聽聽？</value>
+    <value>祝你探索的時候好運。嗯，如果你了解到了什麽有關挪麥人的情報，\\n那麽&lt;SmallText&gt;不介意的話&lt;/SmallText&gt;，是不是也能說給我聽聽？</value>
   </entry>
   <entry>
     <key>RiebeckLearnedOh, cool! &lt;Pause/&gt;Um, what is it?</key>
@@ -8002,7 +8000,7 @@
   </entry>
   <entry>
     <key>RiebeckLearned_4Why they chose to build their most advanced settlement so close to a &lt;i&gt;you-know-what&lt;/i&gt; is beyond me. Maybe that kind of thing makes sense to a Nomai, though. ...Maybe they needed the &lt;size=20&gt;black hole&lt;/size&gt; for something?</key>
-    <value>至於他們為什麽要把自己最先進的定居點建造在距離&lt;i&gt;那玩意兒&lt;/i&gt;\\n這麽近的地方，這我可說不上來。不過，也許對挪麥人而言，\\n那種東西他們用得著……也許他們需要&lt;size=20&gt;黑洞&lt;/size&gt;？</value>
+    <value>至於他們為什麽要把自己最先進的定居點建造在距離&lt;i&gt;那玩意兒&lt;/i&gt;\\n這麽近的地方，這我可說不上來。不過，也許對挪麥人而言，\\n那種東西他們用得著……也許他們需要&lt;SmallText&gt;黑洞&lt;/SmallText&gt;？</value>
   </entry>
   <entry>
     <key>RiebeckLearned_5You mean there’s another Nomai city &lt;i&gt;inside&lt;/i&gt; of Ember Twin? That’s incredible! A whole city, and I had no idea it existed! This is great!</key>
@@ -8078,7 +8076,7 @@
   </entry>
   <entry>
     <key>RiebeckLearned_8Okay, yeah, that’s... that’s not so bad. &lt;Pause&gt;&lt;size=20&gt;That’s probably doable...&lt;/size&gt;</key>
-    <value>好的，很好，這也……也沒那麽糟糕。&lt;Pause&gt;&lt;size=20&gt;說不定還是可行的……&lt;/size&gt;</value>
+    <value>好的，很好，這也……也沒那麽糟糕。&lt;Pause&gt;&lt;SmallText&gt;說不定還是可行的……&lt;/SmallText&gt;</value>
   </entry>
   <entry>
     <key>SignThis piece of Nomai writing was essential to deciphering their unique language.</key>
@@ -8633,7 +8631,7 @@
   </entry>
   <entry>
     <key>SOLANUM: I am Solanum, a Nomai. My clan arrived in this star system before my birth, and we now call it home.</key>
-    <value>所萊內姆：我叫所萊內姆，是一名挪麥人。在我出生之前，\n我的家族就來到了這個星系。如今，我們在這里安了家。</value>
+    <value>所萊內姆：我叫所萊內姆，是一名挪麥人。在我出生之前，\\n我的家族就來到了這個星系。如今，我們在這里安了家。</value>
   </entry>
   <entry>
     <key>SOLANUM: Is this your first time on the &lt;color=lightblue&gt;Quantum Moon&lt;/color&gt;? It’s my first time here.</key>
@@ -9463,7 +9461,7 @@
   </entry>
   <entry>
     <key>LonelyAnd when ground control forgets I’m up here &lt;size=20&gt;and they usually do&lt;/size&gt;, I launch my Little Scout at the village.</key>
-    <value>地面管控忘記我還在這兒時，其實&lt;size=20&gt;他經常忘記&lt;/size&gt;，\\n我就在村子里發射小偵查兵。</value>
+    <value>地面管控忘記我還在這兒時，其實&lt;SmallText&gt;他經常忘記&lt;/SmallText&gt;，\\n我就在村子里發射小偵查兵。</value>
   </entry>
   <entry>
     <key>EskerLonelyThey forget about you?</key>
@@ -9491,7 +9489,7 @@
   </entry>
   <entry>
     <key>SpyIt’s one-way communication. That none of the villagers know about. &lt;size=20&gt;Because I’ve never told them&lt;/size&gt;.</key>
-    <value>只是單向交流。而且沒有村民知道這事兒。&lt;size=20&gt;因為我從沒告訴過他們&lt;/size&gt;。</value>
+    <value>只是單向交流。而且沒有村民知道這事兒。&lt;SmallText&gt;因為我從沒告訴過他們&lt;/SmallText&gt;。</value>
   </entry>
   <entry>
     <key>MusicProbably. Or actually, definitely. The other travelers carry instruments, so they don’t bother whistling.</key>
@@ -10850,7 +10848,7 @@ LOADING...???
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Quantum GroveThere is a strange rock shard in this grove that moves when I’m not watching. It emits a signal on the Quantum Fluctuations frequency.</key>
-      <value>這片樹林里有一塊奇怪的巖石碎片。當我不看它的時候，它就會移動。它發射出一種具備量子波動頻率的\\n信號。</value>
+      <value>這片樹林里有一塊奇怪的巖石碎片。當我不看它的時候，它就會移動。\\n它發射出一種具備量子波動頻率的信號。</value>
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Quantum GroveI found a poem written on one of the trees in the grove.</key>
@@ -11198,7 +11196,7 @@ LOADING...???
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Feldspar’s CampWhen I launch my scout into the seed that crashed on Timber Hearth, it ends up in a much bigger space filled with fog and thorny vines.</key>
-      <value>當我把偵查兵發射到墜落在木爐星的種子里面去的時候，它最後卻出現在了一個充滿霧氣和尖刺藤蔓的更大的空間。</value>
+      <value>當我把偵查兵發射到墜落在木爐星的種子里面去的時候，它最後卻出現在了一個充滿霧氣和尖刺藤蔓的更\\n大的空間。</value>
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Feldspar’s CampFeldspar is alive! They crashed their ship and is now camping inside a huge anglerfish skeleton.</key>
@@ -11330,7 +11328,7 @@ LOADING...???
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>The VesselI found a recording of the original signal the Nomai encountered from the Eye of the universe. The Nomai were worried the signal might disappear, so they warped before they could tell another clan where they were going.</key>
-      <value>我找到了一份記錄，上面是挪麥人從宇宙之眼那里收到的原始信號。挪麥人擔心信號會消失，因此他們還\\n沒有來得及告訴其它家族自己要去哪里，就躍遷走了。</value>
+      <value>我找到了一份記錄，上面是挪麥人從宇宙之眼那里收到的原始信號。挪麥人擔心信號會消失，那個信號是從某個比宇宙還要古老的地方\\n發出來的因此他們還沒有來得及告訴其它家族自己要去哪里，就躍遷走了。</value>
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Orbital Probe Cannon</key>
@@ -11557,12 +11555,16 @@ LOADING...???
       <value>符號室</value>
     </TranslationTableEntry>
     <TranslationTableEntry>
-      <key>Secret Passage</key>
-      <value>秘密通道</value>
+      <key>Hidden Vault Seals</key>
+      <value>隱藏的@@儲藏庫封印</value>
     </TranslationTableEntry>
     <TranslationTableEntry>
-      <key>Symbol RoomThe light coming out of the vault gave me a vision of climbing a spiral staircase to a room near the top of a tower. One of the Stranger's inhabitants pointed at a mural of an identical tower beneath a ringed planet, then picked up an artifact and carried it downstairs to a room with a green fire. Some time later, several lamps in the mural room turned on while others turned off, plunging the mural into darkness and revealing a secret passage.</key>
-      <value>從儲藏庫內映射出的燈光讓我看到了一個幻象。我看到自己登上一道螺旋狀的樓梯，來到一座在高塔頂部\\n附近的房間里。一名外星站的居民指向一面壁畫，上面畫著一座完全相同的高塔矗立在圍繞著光環的行星\\n下，然後他拾起了一件文物，帶著它下了樓，來到了一間燃燒著綠色火焰的房間。不久後，壁畫房間中的\\n部分燈亮起，其他燈熄滅，這使得壁畫陷入了黑暗，露出了一條秘密通道。</value>
+      <key>Symbol RoomThe light coming out of the vault gave me a vision of climbing a spiral staircase to a room near the top of a tower. One of the Stranger's inhabitants pointed at a mural of an identical tower beneath a ringed planet, then picked up an artifact and carried it downstairs to a room with a green fire. Some time later, two of the lamps in the mural room turned off, plunging the mural into darkness and revealing a secret passage.</key>
+      <value>從儲藏庫內映射出的燈光讓我看到了一個幻象。我看到自己登上一道螺旋狀的樓梯，來到塔頂附近的一\\n個房間里。一名外星站的居民指向一面壁畫，上面畫著一座完全相同的高塔矗立在圍繞著光環的行星下，\\n然後他拾起了一件文物，帶著它下了樓，來到了一間燃燒著綠色火焰的房間。不久後，\\n壁畫房間中的兩盞燈熄滅，這使得壁畫陷入了黑暗，露出了一條秘密通道。</value>
+    </TranslationTableEntry>
+    <TranslationTableEntry>
+      <key>Symbol RoomThe passage lead to three wooden containers, each marked with a glowing vault seal.</key>
+      <value>這條通道通向三個木制容器，每個容器上都有發光的儲藏庫封印。</value>
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Symbol RoomA secret room filled with wooden containers marked with different symbols.</key>
@@ -11721,20 +11723,28 @@ LOADING...???
       <value>地下湖</value>
     </TranslationTableEntry>
     <TranslationTableEntry>
-      <key>Fire Chamber</key>
-      <value>燃燒間</value>
+      <key>Enclosed Fire</key>
+      <value>悶燒的火焰</value>
     </TranslationTableEntry>
     <TranslationTableEntry>
-      <key>Subterranean LakeI looked through a peephole in the side of a large metal structure suspended by chains and saw a green fire burning inside.</key>
-      <value>我通過一個小孔看向一個由鐵鏈懸掛的巨大金屬構築物的內部，看到了其中燃燒著的綠色火焰。</value>
+      <key>Subterranean LakeI looked through a peephole in the side of a large metal structure suspended by chains. Inside is another green fire and a staircase leading farther below.</key>
+      <value>我通過一個小孔看向一個由鐵鏈懸掛的巨大金屬構築物的內部，看到了另一團綠色火焰和一個通向下方的\\n樓梯。</value>
     </TranslationTableEntry>
     <TranslationTableEntry>
-      <key>Missing Vault</key>
-      <value>失蹤的儲藏庫</value>
+      <key>Subterranean LakeI looked through a peephole in the side of a large metal structure suspended by chains like the one in the Reservoir. Inside is another green fire and a staircase leading farther below.</key>
+      <value>我通過一個小孔看向一個由類似水庫中的那種鐵鏈懸掛的巨大金屬構築物的內部，看到了另一團綠色火焰和一個通向下方的\\n樓梯。</value>
     </TranslationTableEntry>
     <TranslationTableEntry>
-      <key>Subterranean LakeI saw a vision-like recording of two figures taking artifacts into a large metal structure suspended by chains and going to sleep at the green fire in front of the sealed vault. Upon waking up with lit artifacts, the two figures picked up the vault and carried it down a staircase and out of sight.</key>
+      <key>Vault Room Fire</key>
+      <value>儲藏庫房間火焰</value>
+    </TranslationTableEntry>
+    <TranslationTableEntry>
+      <key>Subterranean LakeI saw a vision-like recording of two figures taking artifacts into a large metal structure suspended by chains and going to sleep at the green fire in front of the sealed vault. Upon waking up with lit artifacts, the two figures picked up the vault and carried it down a staircase to somewhere farther below.</key>
       <value>我看到了一段幻象般的記錄，有兩個人拿著文物走進了一個由鐵鏈懸掛起來的巨大金屬構築物，\\n並在密封儲藏庫前的綠色火焰旁睡下。他們醒來時，文物正在閃閃發光。於是這兩個人搬起儲藏庫，\\n下了樓梯，最終消失在了視野外。</value>
+    </TranslationTableEntry>
+    <TranslationTableEntry>
+      <key>Subterranean LakeI saw a vision-like recording of two figures taking artifacts into the Reservoir's submerged structure and going to sleep at the green fire in front of the sealed vault. Upon waking up with lit artifacts, the two figures picked up the vault and carried it down a staircase to somewhere farther below.</key>
+      <value>我看到了一段幻象般的記錄，有兩個人拿著文物走進了水庫的水下構築物，\\n並在密封儲藏庫前的綠色火焰旁睡下。他們醒來時，文物正在閃閃發光。於是這兩個人搬起儲藏庫，\\n下了樓梯，最終消失在了視野外。</value>
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Subterranean LakeI discovered a vast subterranean lake beneath the submerged structure. The sealed vault is resting on the shore of the lake. There are three interfaces, each marked with one of the three symbols from the vault.</key>
@@ -11777,6 +11787,10 @@ LOADING...???
       <value>我使用火把視野將我對太陽系歷史的知識分享給了幽禁者。</value>
     </TranslationTableEntry>
     <TranslationTableEntry>
+      <key>Sealed VaultThe Prisoner left one final vision for me by the water's edge as a farewell.</key>
+      <value>幽禁者在水邊給我留下了最後一段幻象作為告別。</value>
+    </TranslationTableEntry>
+    <TranslationTableEntry>
       <key>Shrouded Woodlands</key>
       <value>覆蓋林地</value>
     </TranslationTableEntry>
@@ -11806,7 +11820,7 @@ LOADING...???
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Forbidden ArchiveI found a hidden slide reel that shows a container marked with a glowing symbol being handed to a shadowy figure. The figure follows a procession of lights through a forest to a candlelit building, where they carry the container into a secret passage behind a roaring fireplace.</key>
-      <value>我找到了一卷藏起來的幻燈片，其中顯示一個鬼鬼祟祟的身影接過了一個標記有發光符號的容器。\\n這個身影沿著一串燈光穿過一片森林，來到了一座點滿蠟燭的建築物內，\\n然後他帶著這個容器走入了一個熊熊燃燒的壁爐後的秘密通道里。</value>
+      <value>我找到了一卷藏起來的幻燈片，其中顯示一個鬼鬼祟祟的身影接過了一個標記有發光符號的容器。\\n這個身影沿著一串燈光穿過一片森林，來到了一座點滿蠟燭的建築物內，然後他帶著這個容器走入了一\\n個熊熊燃燒的壁爐後的秘密通道里。</value>
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Forbidden ArchiveA library full of intact slide reels hidden deep underground.</key>
@@ -11862,7 +11876,7 @@ LOADING...???
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Forbidden ArchiveThe reel I found in the slide burning room shows a container marked with a glowing symbol being handed to a shadowy figure. The lights are extinguished, and the figure carries the container down into a dark well.</key>
-      <value>我在幻燈片焚燒室中找到了一卷幻燈片，其中顯示一個鬼鬼祟祟的身影接過了一個標記有發光符號的容器。\\n燈光熄滅了，然後這個身影帶著這個容器走入了一個黑暗的水井里。</value>
+      <value>我在幻燈片焚燒室中找到了一卷幻燈片，其中顯示一個鬼鬼祟祟的身影接過了一\\n個標記有發光符號的容器。燈光熄滅了，然後這個身影帶著這個容器走入了一\\n個黑暗的水井里。</value>
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Forbidden ArchiveI found a slide reel that shows the Stranger's inhabitants analyzing an anomaly that closely resembles the Nomai symbol for the Eye of the universe.</key>
@@ -11906,7 +11920,7 @@ LOADING...???
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Forbidden ArchiveThe reel I found in the slide burning room shows a container marked with a glowing symbol being handed to a shadowy figure. The lights are extinguished, and the figure carries the container into a secret passage behind a mural of a large tree.</key>
-      <value>我在幻燈片焚燒室中找到了一卷幻燈片，其中顯示一個鬼鬼祟祟的身影接過了一個標記有發光符號的容器。\\n燈光熄滅了，然後這個身影帶著這個容器走入了一幅畫著大樹的壁畫後的秘密通道里。</value>
+      <value>我在幻燈片焚燒室中找到了一卷幻燈片，其中顯示一個鬼鬼祟祟的身影接過了一\\n個標記有發光符號的容器。燈光熄滅了，然後這個身影帶著這個容器走入了一\\n幅畫著大樹的壁畫後的秘密通道里。</value>
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Forbidden ArchiveI found a slide reel that shows the Stranger's inhabitants congregating around a strange green fire.</key>
@@ -12022,7 +12036,7 @@ LOADING...???
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>High Energy LabThe Nomai wanted to know if a 22-minute negative time interval was possible. They concluded it would require new technology to produce the necessary energy as well an advanced warp core to handle those energies. Ash Twin was proposed as a location for the project.</key>
-      <value>挪麥人想知道，他們是否能夠制造出一個22分鐘的時間倒流間隔。他們得出結論，實現這一目標需要一種\\n能夠產生必要能量的新技術，還需要一顆能夠處理這些能量的高級躍遷核心。他們提議將灰燼雙星作為該計劃的選址。</value>
+      <value>挪麥人想知道，他們是否能夠制造出一個22分鐘的時間倒流間隔。他們得出結論，實現這一目標需要一\\n種能夠產生必要能量的新技術，還需要一顆能夠處理這些能量的高級躍遷核心。\\n他們提議將灰燼雙星作為該計劃的選址。</value>
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Ash Twin Tower Designs</key>
@@ -12082,7 +12096,7 @@ LOADING...???
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>The Sunless CityThe Nomai debated building a Sun Station in order to power the Ash Twin Project. Several Nomai opposed its construction, arguing that failure could result in the destruction of the solar system.</key>
-      <value>挪麥人曾經考慮過建造一座太陽站，來為灰燼雙星計劃提供動力。有些挪麥人反對這個提議，辯駁稱建造\\n失敗可能會導致這個太陽系的毀滅。</value>
+      <value>挪麥人曾經考慮過建造一座太陽站，來為灰燼雙星計劃提供動力。有些挪麥人反對這個提議，\\n辯駁稱建造失敗可能會導致這個太陽系的毀滅。</value>
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>The Sunless CityThe Nomai traveled to this solar system in pursuit of a signal from something older than the universe itself. They named the source of this signal the "Eye of the universe."</key>
@@ -12114,7 +12128,7 @@ LOADING...???
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Anglerfish FossilNomai children used to play a game here. One player was the anglerfish and wore a blindfold. The rest of the children (the littlefish) lined up against one wall. When the anglerfish said go, the littlefish had to sneak across to the other side.</key>
-      <value>挪麥人的孩子們以前在這里玩遊戲。其中一個人會戴上眼罩，當安康魚。其他的孩子們（小魚）靠著一面\\n墻排成一排。安康魚說開始，小魚就必須悄悄地跑到另一邊去。</value>
+      <value>挪麥人的孩子們以前在這里玩遊戲。其中一個人會戴上眼罩，當安康魚。其他的孩子們（小魚）\\n靠著一面墻排成一排。安康魚說開始，小魚就必須悄悄地跑到另一邊去。</value>
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Anglerfish FossilThe blindfold rule was added because real anglerfish are blind.</key>
@@ -12162,7 +12176,7 @@ LOADING...???
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Lakebed CaveColeus and Merolae returned to examine the rock. They theorized that when a conscious being is in contact with a quantum object and ceases to observe his or her surroundings, the being can become entangled with that quantum object, and they both move together.</key>
-      <value>科利耶斯和梅洛瑞回來再次查看那塊巖石。他們提出一個理論，假如一個有意識的存在接觸到一個\\n量子對象，並且停止觀察自己的周圍，那麽該存在就能和量子對象進入糾纏態，從而一起移動。</value>
+      <value>科利耶斯和梅洛瑞回來再次查看那塊巖石。他們提出一個理論，假如一個有意識的存在接觸到一\\n個量子對象，並且停止觀察自己的周圍，那麽該存在就能和量子對象進入糾纏態，從而一起移動。</value>
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Frozen Nomai Shuttle</key>
@@ -12254,7 +12268,7 @@ LOADING...???
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Gabbro’s IslandGabbro is lounging in a hammock near the island’s shore.</key>
-      <value>加布羅閑躺在島嶼岸邊的吊床里。</value>
+      <value>加布羅閒躺在島嶼岸邊的吊床里。</value>
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Gabbro’s IslandGabbro found a Nomai statue on another island. The statue's eyes started glowing and Gabbro saw their memories flash before their eyes.</key>
@@ -12853,6 +12867,10 @@ LOADING...???
     <TranslationTableEntryUI>
       <key>147</key>
       <value>要應用更改嗎？</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>148</key>
+      <value>渲染模式</value>
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
       <key>150</key>
@@ -13868,7 +13886,11 @@ LOADING...???
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
       <key>525</key>
-      <value />
+      <value>控制器已斷開連接。\\n請重新連接控制器。</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>526</key>
+      <value>請重新連接無線控制器以繼續。</value>
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
       <key>550</key>
@@ -14731,6 +14753,26 @@ LOADING...???
       <value>非常快</value>
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
+      <key>995</key>
+      <value>1440p/60fps</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>996</key>
+      <value>2160p/30fps</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>997</key>
+      <value>動態/60fps</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>998</key>
+      <value>1080p/60fps</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>999</key>
+      <value>1440p/30fps</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
       <key>1000</key>
       <value>創建個人資料</value>
     </TranslationTableEntryUI>
@@ -15004,7 +15046,7 @@ LOADING...???
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
       <key>1115</key>
-      <value>將粗糙的像素邊緣平滑化。增強型子像素形態學抗鋸齒（SMAA）更為精確，圖形質量更高，但快速近似抗鋸齒（FXAA）運行更加流暢。\\n渲染負載：低</value>
+      <value>將粗糙的像素邊緣平滑化。增強型子像素形態學抗鋸齒（SMAA）更為精確，圖形質量更高，\\n但快速近似抗鋸齒（FXAA）運行更加流暢。\\n渲染負載：低</value>
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
       <key>1116</key>
@@ -15281,6 +15323,26 @@ LOADING...???
     <TranslationTableEntryUI>
       <key>1188</key>
       <value>在宇宙飛船日志中，滾動瀏覽長篇日志記錄</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1189</key>
+      <value>啟用無線控制器的震動功能（僅適用於無線控制器）。</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1190</key>
+      <value>啟用控制器震動（僅適用於控制器）。</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1191</key>
+      <value>確定必須傾斜左搖桿/右搖桿操作桿多少距離（以中心為基準）才能檢測到任何輸入。如果遊戲角色在您未觸摸左搖桿/右搖桿操作桿時自動移動或環顧四周，請考慮增大此死區。</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1192</key>
+      <value>確定必須釋放左搖桿/右搖桿操作桿多少距離（以完全傾斜為基準）才能不再檢測到最大輸入。如果您無法以最快速度移動或查看四周，請考慮增大此死區。</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1193</key>
+      <value>選擇要渲染的分辨率和幀率。\\n動態分辨率適合支持可變刷新率 (VRR) 的顯示器。</value>
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
       <key>1200</key>
@@ -15563,6 +15625,10 @@ LOADING...???
       <value>預飛檢查表</value>
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
+      <key>1409</key>
+      <value>（不支持）</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
       <key>1410</key>
       <value>弱化恐怖</value>
     </TranslationTableEntryUI>
@@ -15773,6 +15839,122 @@ LOADING...???
     <TranslationTableEntryUI>
       <key>1545</key>
       <value>更改音效的音量。</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1550</key>
+      <value>是否要重置輸入設置？</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1551</key>
+      <value>是</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1552</key>
+      <value>否</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1553</key>
+      <value>全屏模式</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1554</key>
+      <value>窗口模式</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1555</key>
+      <value>無邊框窗口</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1556</key>
+      <value>鍵盤布局</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1557</key>
+      <value>根據選定的鍵盤布局設置鍵位綁定。（更改此設置會將鍵盤和鼠標綁定重置為默認值）</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1558</key>
+      <value>Switch Pro 控制器（不支持）</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1559</key>
+      <value>切換幻燈片</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1560</key>
+      <value>繼續探險</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1561</key>
+      <value>調整滑塊，直至幾乎看不到圖像為止。</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1562</key>
+      <value>應用</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1563</key>
+      <value>取消</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1564</key>
+      <value>伽馬</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1565</key>
+      <value>下一個</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1566</key>
+      <value>上一個</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1570</key>
+      <value>震動功能</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>177</key>
+      <value>UI 大小</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1053</key>
+      <value>自動</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1054</key>
+      <value>常規</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1055</key>
+      <value>大號</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1194</key>
+      <value>自動：根據語言和平台自動確定大小\\n常規/大號：手動將大小鎖定為所選的選項。</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1195</key>
+      <value>反轉玩家視野（水平）</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1196</key>
+      <value>反轉宇宙飛船視野（水平）</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1197</key>
+      <value>反轉玩家視野（垂直）</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1198</key>
+      <value>反轉宇宙飛船視野（垂直）</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1146</key>
+      <value>徒步行走時反轉觀看動作的右左操作。</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>1147</key>
+      <value>操作宇宙飛船時反轉觀看動作的右左操作。</value>
     </TranslationTableEntryUI>
   </table_ui>
 </TranslationTable_XML>
