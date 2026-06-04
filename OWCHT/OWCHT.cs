@@ -261,14 +261,7 @@ namespace OWCHT
                 return true;
             }
 
-            if (dynamicFont)
-            {
-                __result = OWCHT.self.NotoSansTcMedDyn;
-            }
-            else
-            {
-                __result = OWCHT.self.NotoSansTcMed;
-            }
+            __result = OWCHT.self.NotoSansTcMedDyn;
             return false;
         }
 
@@ -283,7 +276,7 @@ namespace OWCHT
                 return true;
             }
 
-            ____fontInUse = OWCHT.self.NotoSansTcMed;
+            ____fontInUse = OWCHT.self.NotoSansTcMedDyn;
             ____dynamicFontInUse = OWCHT.self.NotoSansTcMedDyn;
             ____fontSpacingInUse = TextTranslation.GetDefaultFontSpacing();
             ____textField.font = ____fontInUse;
@@ -298,7 +291,7 @@ namespace OWCHT
                 return true;
             }
 
-            __result = OWCHT.self.NotoSansTcMed;
+            __result = OWCHT.self.NotoSansTcMedDyn;
             return false;
         }
         private static bool GetShipLogCardFont(ref Font __result)
@@ -308,7 +301,7 @@ namespace OWCHT
                 return true;
             }
 
-            __result = OWCHT.self.NotoSansTcMed;
+            __result = OWCHT.self.NotoSansTcMedDyn;
             return false;
         }
 
