@@ -113,19 +113,25 @@ namespace OWCHT
 
             ___m_language = lang;
             ___m_table = null;
-            TextAsset textAsset;
-            //if (isEnglishName){
-            //    textAsset = self.Bundle.LoadAsset<TextAsset>("Assets/TranslationEngName.txt");
-            //}else{
-            //    textAsset = self.Bundle.LoadAsset<TextAsset>("Assets/Translation.txt");
-            //}
-            textAsset = self.Bundle.LoadAsset<TextAsset>("Assets/Translation.txt");
-            if (null == textAsset)
+            TextAsset textAsset = null;
+            string xml;
+            string externalPath = self.ModHelper.Manifest.ModFolderPath + "Translation.txt";
+            if (System.IO.File.Exists(externalPath))
             {
-                Debug.LogError("Unable to load text translation file for language " + TextTranslation.s_langFolder[(int)___m_language]);
-                return false;
+                ModHelper.Console.WriteLine("Loading translation from external file: " + externalPath);
+                xml = System.IO.File.ReadAllText(externalPath, System.Text.Encoding.UTF8);
             }
-            string xml = OWUtilities.RemoveByteOrderMark(textAsset);
+            else
+            {
+                ModHelper.Console.WriteLine("External translation file not found, falling back to bundle.");
+                textAsset = self.Bundle.LoadAsset<TextAsset>("Assets/Translation.txt");
+                if (null == textAsset)
+                {
+                    Debug.LogError("Unable to load text translation file for language " + TextTranslation.s_langFolder[(int)___m_language]);
+                    return false;
+                }
+                xml = OWUtilities.RemoveByteOrderMark(textAsset);
+            }
             XmlDocument xmlDocument = new XmlDocument();
             xmlDocument.LoadXml(xml);
             XmlNode xmlNode = xmlDocument.SelectSingleNode("TranslationTable_XML");
@@ -147,12 +153,9 @@ namespace OWCHT
                 translationTable_XML.table_ui.Add(new TextTranslation.TranslationTableEntryUI(int.Parse(xmlNode4.SelectSingleNode("key").InnerText), xmlNode4.SelectSingleNode("value").InnerText));
             }
             ___m_table = new TextTranslation.TranslationTable(translationTable_XML);
-            Resources.UnloadAsset(textAsset);
+            if (textAsset != null) Resources.UnloadAsset(textAsset);
             var onLanguageChangedDelegate = (MulticastDelegate)__instance.GetType().GetField("OnLanguageChanged", BindingFlags.Instance | BindingFlags.NonPublic).GetValue(__instance);
-            if (onLanguageChangedDelegate != null)
-            {
-                onLanguageChangedDelegate.DynamicInvoke();
-            }
+            onLanguageChangedDelegate?.DynamicInvoke();
             return false;
         }
 

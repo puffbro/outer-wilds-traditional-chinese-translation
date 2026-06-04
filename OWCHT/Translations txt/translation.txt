@@ -37,11 +37,11 @@
   </entry>
   <entry>
     <key>Solution 2: We could craft a new advanced warp core inspired by the &lt;color=orange&gt;Vessel&lt;/color&gt;’s warp core.</key>
-    <value>解決方案2：我們可以根據&lt;color=orange&gt;飛船&lt;/color&gt;的躍遷核心，\\n制作一種新的高級躍遷核心。</value>
+    <value>解決方案2：我們可以根據&lt;color=orange&gt;飛船&lt;/color&gt;的躍遷核心，\\n製作一種新的高級躍遷核心。</value>
   </entry>
   <entry>
     <key>OENO: The greatest challenge here, I think, is we don’t have the design for such a powerful core, or any of the original crafters of the &lt;color=orange&gt;Vessel&lt;/color&gt;’s core.</key>
-    <value>奧埃諾：我認為，我們面臨的最大挑戰是我們並沒有設計圖，也沒有\\n任何一個原來的制作者，可以制作如此強大的&lt;color=orange&gt;飛船&lt;/color&gt;核心。</value>
+    <value>奧埃諾：我認為，我們面臨的最大挑戰是我們並沒有設計圖，也沒有\\n任何一個原來的製作者，可以製作如此強大的&lt;color=orange&gt;飛船&lt;/color&gt;核心。</value>
   </entry>
   <entry>
     <key>CLARY: No, but Poke was apprenticed to Annona, who created the original design, and our &lt;color=orange&gt;Black Hole Forge&lt;/color&gt; is adept at crafting simpler cores.</key>
@@ -49,7 +49,7 @@
   </entry>
   <entry>
     <key>POKE: I believe I can be of use here! The &lt;color=orange&gt;Vessel&lt;/color&gt;’s warp core was created before my time, but Annona explained many of his designs to me.</key>
-    <value>珀克：我相信我可以派上用場！雖然在我出生之前，&lt;color=orange&gt;飛船&lt;/color&gt;的躍遷核心\\n就被制作出來了。不過安諾納給我解釋過他的許多設計思路。</value>
+    <value>珀克：我相信我可以派上用場！雖然在我出生之前，&lt;color=orange&gt;飛船&lt;/color&gt;的躍遷核心\\n就被製作出來了。不過安諾納給我解釋過他的許多設計思路。</value>
   </entry>
   <entry>
     <key>IDAEA: This is the safest path for our clan.</key>
@@ -73,7 +73,7 @@
   </entry>
   <entry>
     <key>POKE: I would very much like to craft such a powerful core! More relevantly, I believe the &lt;color=orange&gt;Black Hole Forge&lt;/color&gt; crew and I could recreate the basic design.</key>
-    <value>珀克：我非常希望能夠制作這樣一個強大的核心！更要緊的是，\\n我相信&lt;color=orange&gt;黑洞熔爐&lt;/color&gt;人員和我可以把基礎設計還原出來。</value>
+    <value>珀克：我非常希望能夠製作這樣一個強大的核心！更要緊的是，\\n我相信&lt;color=orange&gt;黑洞熔爐&lt;/color&gt;人員和我可以把基礎設計還原出來。</value>
   </entry>
   <entry>
     <key>
@@ -298,7 +298,7 @@
   </entry>
   <entry>
     <key>CONOY: Spire and I are crafting a model to determine why this happened.</key>
-    <value>科諾伊：斯拜爾和我正在制作模型，分析為什麽會出現這種情況。</value>
+    <value>科諾伊：斯拜爾和我正在製作模型，分析為什麽會出現這種情況。</value>
   </entry>
   <entry>
     <key>SPIRE: An update: It’s now clear there are two different types of cyclone.</key>
@@ -314,7 +314,7 @@
   </entry>
   <entry>
     <key>CASSAVA: My gratitude, Spire. Conoy is showing me your handiwork, and I’m intrigued by this secondary type of cyclone. But was it really necessary to build a model to tell me that?</key>
-    <value>卡薩瓦：感激不盡，斯拜爾。科諾伊給我看了你的研究成果，我對第二種\\n氣旋很感興趣。可是真的有必要制作一個模型才能把事情說清楚嗎？</value>
+    <value>卡薩瓦：感激不盡，斯拜爾。科諾伊給我看了你的研究成果，我對第二種\\n氣旋很感興趣。可是真的有必要製作一個模型才能把事情說清楚嗎？</value>
   </entry>
   <entry>
     <key>SPIRE: The model will be useful as we continue monitoring &lt;color=lightblue&gt;Giant’s Deep&lt;/color&gt;.</key>
@@ -3852,7 +3852,7 @@
   </entry>
   <entry>
     <key>HalFriendNot5_TO_CHANGEWhy did the Nomai make this statue?</key>
-    <value>挪麥人為什麽要制作那個雕像？</value>
+    <value>挪麥人為什麽要製作那個雕像？</value>
   </entry>
   <entry>
     <key>HalFriendNot5_TO_CHANGEThink I’ll discover anything cool in space?</key>
@@ -3876,7 +3876,7 @@
   </entry>
   <entry>
     <key>HalFriendMenuWhy did the Nomai make this statue?</key>
-    <value>挪麥人為什麽要制作那個雕像？</value>
+    <value>挪麥人為什麽要製作那個雕像？</value>
   </entry>
   <entry>
     <key>HalFriendMenuThink I’ll discover anything cool in space?</key>
@@ -3888,7 +3888,7 @@
   </entry>
   <entry>
     <key>Friend6Good question! So Gabbro found this fully intact statue on Giant’s Deep, right? Well, Hornfels told me it’s made from the same type of special stone as the partial statue Chert brought back from the Hourglass Twins.</key>
-    <value>問得好！加布羅在深巨星發現了這座完好無缺的雕像，對吧？\\n霍恩費斯跟我說，它是一種特別的石頭制作的，\\n和切特從沙漏雙星帶回來的雕像碎片是同種石頭。</value>
+    <value>問得好！加布羅在深巨星發現了這座完好無缺的雕像，對吧？\\n霍恩費斯跟我說，它是一種特別的石頭製作的，\\n和切特從沙漏雙星帶回來的雕像碎片是同種石頭。</value>
   </entry>
   <entry>
     <key>Friend6That’s why when Gabbro, you know, chipped the Giant’s Deep statue, that stone fragment was repurposed for your ship’s computer.</key>
@@ -6259,7 +6259,7 @@
   </entry>
   <entry>
     <key>Gneiss3Oh, sure! I made all of their instruments, you know. Let me see... There’s Chert’s drums, Riebeck’s banjo, and Gabbro’s flute.</key>
-    <value>哦，沒問題！你知道嗎？他們的樂器都是我制作的。讓我想想啊……\\n切特的鼓、瑞拜克的班卓琴，以及加布羅的長笛。</value>
+    <value>哦，沒問題！你知道嗎？他們的樂器都是我製作的。讓我想想啊……\\n切特的鼓、瑞拜克的班卓琴，以及加布羅的長笛。</value>
   </entry>
   <entry>
     <key>Gneiss3And Feldspar’s harmonica, of course, though Feldspar’s been missing for a long time. Sometimes it feels like just yesterday they were playing their harmonica around the campfire...</key>
@@ -6555,7 +6555,7 @@
   </entry>
   <entry>
     <key>HalPostConvoMenuWhy did the Nomai make that statue?</key>
-    <value>挪麥人為什麽要制作那個雕像？</value>
+    <value>挪麥人為什麽要製作那個雕像？</value>
   </entry>
   <entry>
     <key>HalPostConvoMenuWonder if I’ll discover anything cool in space.</key>
@@ -6591,7 +6591,7 @@
   </entry>
   <entry>
     <key>PostConvo3Good question! You know how Gabbro knocked a fragment off the statue while they were hauling it back from Giant's Deep?</key>
-    <value>問得好！加布羅發現深巨星的博物館里展出了那座雕像，對吧？\\n霍恩費斯跟我說，它是一種特別的石頭制作的，\\n和切特從沙漏雙星帶回來的雕像碎片是同種石頭。</value>
+    <value>問得好！加布羅發現深巨星的博物館里展出了那座雕像，對吧？\\n霍恩費斯跟我說，它是一種特別的石頭製作的，\\n和切特從沙漏雙星帶回來的雕像碎片是同種石頭。</value>
   </entry>
   <entry>
     <key>PostConvo3Hornfels analyzed the fragment and figured out the stone it's made from can store information — I heard Slate ended up repurposing it for your ship’s computer.</key>
@@ -10169,7 +10169,7 @@
   </entry>
   <entry>
     <key>Curator10At any rate, here are the &lt;color=orange&gt;launch codes&lt;/color&gt;. Try not to worry too much - our ships are every bit as safe as Slate could be persuaded to make them.</key>
-    <value>不管怎麽樣，這是&lt;color=orange&gt;發射密碼&lt;/color&gt;。別太擔心，\\n既然斯雷特加入到了宇宙飛船的制作當中，那麽它一定十分安全。</value>
+    <value>不管怎麽樣，這是&lt;color=orange&gt;發射密碼&lt;/color&gt;。別太擔心，\\n既然斯雷特加入到了宇宙飛船的製作當中，那麽它一定十分安全。</value>
   </entry>
   <entry>
     <key>Curator10Best of luck out there! Let me know if I can help you with anything.</key>
@@ -12324,7 +12324,7 @@ LOADING...???
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Statue IslandThis island must be where the Nomai created statues like the one in our observatory.</key>
-      <value>那些雕像和我們在天文台里的那座一樣。一定是挪麥人在這座島上制作了它們。</value>
+      <value>那些雕像和我們在天文台里的那座一樣。一定是挪麥人在這座島上製作了它們。</value>
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Statue IslandI found a Nomai statue lying on the beach. It looks just like the one in our observatory.</key>
@@ -12698,7 +12698,7 @@ LOADING...???
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
       <key>105</key>
-      <value>查看制作人員名單</value>
+      <value>查看製作人員名單</value>
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
       <key>106</key>
