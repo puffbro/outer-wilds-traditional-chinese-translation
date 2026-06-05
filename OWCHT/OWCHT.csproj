@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildProjectFullPath).user" Condition="Exists('$(MSBuildProjectFullPath).user')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -32,71 +33,71 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>..\..\OWML\0Harmony.dll</HintPath>
+      <HintPath>$(OwmlDir)\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\OWML\Assembly-CSharp.dll</HintPath>
+      <HintPath>$(OwmlDir)\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>..\..\OWML\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>$(OwmlDir)\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.Fbx">
-      <HintPath>..\..\OWML\Autodesk.Fbx.dll</HintPath>
+      <HintPath>$(OwmlDir)\Autodesk.Fbx.dll</HintPath>
     </Reference>
     <Reference Include="Autofac">
-      <HintPath>..\..\OWML\Autofac.dll</HintPath>
+      <HintPath>$(OwmlDir)\Autofac.dll</HintPath>
     </Reference>
     <Reference Include="dnlib">
-      <HintPath>..\..\OWML\dnlib.dll</HintPath>
+      <HintPath>$(OwmlDir)\dnlib.dll</HintPath>
     </Reference>
     <Reference Include="dnpatch">
-      <HintPath>..\..\OWML\dnpatch.dll</HintPath>
+      <HintPath>$(OwmlDir)\dnpatch.dll</HintPath>
     </Reference>
     <Reference Include="EOS-SDK">
-      <HintPath>..\..\OWML\EOS-SDK.dll</HintPath>
+      <HintPath>$(OwmlDir)\EOS-SDK.dll</HintPath>
     </Reference>
     <Reference Include="Gameloop.Vdf">
-      <HintPath>..\..\OWML\Gameloop.Vdf.dll</HintPath>
+      <HintPath>$(OwmlDir)\Gameloop.Vdf.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil">
-      <HintPath>..\..\OWML\Mono.Cecil.dll</HintPath>
+      <HintPath>$(OwmlDir)\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil.Mdb">
-      <HintPath>..\..\OWML\Mono.Cecil.Mdb.dll</HintPath>
+      <HintPath>$(OwmlDir)\Mono.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil.Pdb">
-      <HintPath>..\..\OWML\Mono.Cecil.Pdb.dll</HintPath>
+      <HintPath>$(OwmlDir)\Mono.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil.Rocks">
-      <HintPath>..\..\OWML\Mono.Cecil.Rocks.dll</HintPath>
+      <HintPath>$(OwmlDir)\Mono.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Security">
-      <HintPath>..\..\OWML\Mono.Security.dll</HintPath>
+      <HintPath>$(OwmlDir)\Mono.Security.dll</HintPath>
     </Reference>
     <Reference Include="MonoMod.RuntimeDetour">
-      <HintPath>..\..\OWML\MonoMod.RuntimeDetour.dll</HintPath>
+      <HintPath>$(OwmlDir)\MonoMod.RuntimeDetour.dll</HintPath>
     </Reference>
     <Reference Include="MonoMod.Utils">
-      <HintPath>..\..\OWML\MonoMod.Utils.dll</HintPath>
+      <HintPath>$(OwmlDir)\MonoMod.Utils.dll</HintPath>
     </Reference>
     <Reference Include="NAudio-Unity, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\OWML.2.3.3\lib\net48\NAudio-Unity.dll</HintPath>
     </Reference>
     <Reference Include="netstandard" />
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\OWML\Newtonsoft.Json.dll</HintPath>
+      <HintPath>$(OwmlDir)\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="OWML.Abstractions">
-      <HintPath>..\..\OWML\OWML.Abstractions.dll</HintPath>
+      <HintPath>$(OwmlDir)\OWML.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="OWML.Common, Version=2.3.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\OWML.2.3.3\lib\net48\OWML.Common.dll</HintPath>
     </Reference>
     <Reference Include="OWML.GameFinder">
-      <HintPath>..\..\OWML\OWML.GameFinder.dll</HintPath>
+      <HintPath>$(OwmlDir)\OWML.GameFinder.dll</HintPath>
     </Reference>
     <Reference Include="OWML.Launcher">
-      <HintPath>..\..\OWML\OWML.Launcher.exe</HintPath>
+      <HintPath>$(OwmlDir)\OWML.Launcher.exe</HintPath>
     </Reference>
     <Reference Include="OWML.Logging, Version=2.3.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\OWML.2.3.3\lib\net48\OWML.Logging.dll</HintPath>
@@ -120,10 +121,10 @@
       <HintPath>..\packages\OWML.2.3.3\lib\net48\OWML.ModHelper.Menus.dll</HintPath>
     </Reference>
     <Reference Include="OWML.ModLoader">
-      <HintPath>..\..\OWML\OWML.ModLoader.dll</HintPath>
+      <HintPath>$(OwmlDir)\OWML.ModLoader.dll</HintPath>
     </Reference>
     <Reference Include="OWML.Patcher">
-      <HintPath>..\..\OWML\OWML.Patcher.dll</HintPath>
+      <HintPath>$(OwmlDir)\OWML.Patcher.dll</HintPath>
     </Reference>
     <Reference Include="OWML.Utils, Version=2.3.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\OWML.2.3.3\lib\net48\OWML.Utils.dll</HintPath>
@@ -139,88 +140,88 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
-      <HintPath>..\..\OWML\UnityEngine.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AssetBundleModule">
-      <HintPath>..\..\OWML\UnityEngine.AssetBundleModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.AssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\..\OWML\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TerrainPhysicsModule">
-      <HintPath>..\..\OWML\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.TerrainPhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextCoreModule">
-      <HintPath>..\..\OWML\UnityEngine.TextCoreModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.TextCoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>..\..\OWML\UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TilemapModule">
-      <HintPath>..\..\OWML\UnityEngine.TilemapModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.TilemapModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TLSModule">
-      <HintPath>..\..\OWML\UnityEngine.TLSModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.TLSModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>..\..\OWML\UnityEngine.UI.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsModule">
-      <HintPath>..\..\OWML\UnityEngine.UIElementsModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.UIElementsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
-      <HintPath>..\..\OWML\UnityEngine.UIModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UmbraModule">
-      <HintPath>..\..\OWML\UnityEngine.UmbraModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.UmbraModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UNETModule">
-      <HintPath>..\..\OWML\UnityEngine.UNETModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.UNETModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsModule">
-      <HintPath>..\..\OWML\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.UnityAnalyticsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityConnectModule">
-      <HintPath>..\..\OWML\UnityEngine.UnityConnectModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityTestProtocolModule">
-      <HintPath>..\..\OWML\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.UnityTestProtocolModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-      <HintPath>..\..\OWML\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
-      <HintPath>..\..\OWML\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestModule">
-      <HintPath>..\..\OWML\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.UnityWebRequestModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
-      <HintPath>..\..\OWML\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-      <HintPath>..\..\OWML\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VehiclesModule">
-      <HintPath>..\..\OWML\UnityEngine.VehiclesModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.VehiclesModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VFXModule">
-      <HintPath>..\..\OWML\UnityEngine.VFXModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.VFXModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VideoModule">
-      <HintPath>..\..\OWML\UnityEngine.VideoModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.VideoModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VRModule">
-      <HintPath>..\..\OWML\UnityEngine.VRModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.VRModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.WindModule">
-      <HintPath>..\..\OWML\UnityEngine.WindModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.WindModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>..\..\OWML\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XRModule">
-      <HintPath>..\..\OWML\UnityEngine.XRModule.dll</HintPath>
+      <HintPath>$(OwmlDir)\UnityEngine.XRModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

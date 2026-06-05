@@ -3,3 +3,11 @@ packages
 bin
 obj
 references
+
+# 本機設定（含私人路徑）
+*.csproj.user
+*.slnLaunch.user
+OWCHT/tools/local_config.json
+
+# 腳本生成物（不需版本控制）
+OWCHT/tools/translation.txt
